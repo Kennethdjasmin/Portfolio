@@ -3,23 +3,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="https://raw.githubusercontent.com/Kennethdjasmin/Portfolio/main/style.css">
-  <script src="https://raw.githubusercontent.com/Kennethdjasmin/Portfolio/main/scripts.js"></script>
+  <link rel="stylesheet" href="">
   
   <body>
     <div class="navbar">
-      <a class="active" href="#home"onclick="w3_open()">☰</a>
+      <a class="active" href="#home"onclick="bar_open()">☰</a>
       <a href="#team">MY TEAM</a>
       <a href="#experience">MY EXPERIENCES</a>
       <a href="#expertise">MY EXPERTISES</a>
       <a href="#contact">CONTACT</a>
     </div>
     
-    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-    <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-    <a href="#" class="w3-bar-item w3-button">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    <div class="sidebar" style="display:none" id="mySidebar">
+    <button onclick="bar_close()" class="sidebar-items">Close &times;</button>
+    <a href="#" class="sidebar-button">RESUME</a>
+    <a href="#" class="sidebar-button">ABOUT</a>
+    <a href="#" class="sidebar-button">OTHERS</a>
     </div>
       
     <h1>MY PORTFOLIO</h1>
